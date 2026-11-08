@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập HTML Cơ Bản</title>
+</head>
+<body>
+
+    <h1>Trang Web Bài Tập Của Tôi</h1>
+    <section>
+        <h2>Phần Media (Video)</h2>
+        <video width="400" controls>
+            <source src="vid.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ thẻ video.
+        </video>
+    </section>
+    <section>
+        <h2>Phần Form Đăng Ký</h2>
+        <form>
+            <label>Họ và tên:</label><br>
+            <input type="text" name="hoten" placeholder="Nhập tên của bạn"><br><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Nhập email"><br><br>
+            <label>Ngày sinh:</label><br>
+            <input type="date" name="ngaysinh"><br><br>
+            <label>Chọn giới tính:</label><br>
+            <select name="gioitinh">
+                <option value="nam">Nam</option>
+                <option value="nu">Nữ</option>
+            </select>
+            <button type="submit">Gửi thông tin</button>
+        </form>
+    </section>
+</body>
+</html>
