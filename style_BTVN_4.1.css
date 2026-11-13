@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+}
+
+.demo {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.profile-card {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px 32px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.profile-card input,
+.profile-card button {
+    width: 100%;
+    display: block;
+    margin-top: 12px;
+}
+
+/* Bản 1: px */
+.version-px h2 { font-size: 24px; }
+.version-px p { font-size: 14px; }
+.version-px input { font-size: 15px; padding: 14px 16px; }
+.version-px button { font-size: 16px; padding: 16px 24px; }
+
+/* Bản 2: rem — 1rem = 16px, bằng đúng số px ở bản 1 */
+.version-rem h2 { font-size: 1.5rem; }
+.version-rem p { font-size: 0.875rem; }
+.version-rem input { font-size: 0.9375rem; padding: 0.875rem 1rem; }
+.version-rem button { font-size: 1rem; padding: 1rem 1.5rem; }
