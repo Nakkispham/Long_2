@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+}
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+.card {
+  flex: 1 1 200px;
+  max-width: 260px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #d5dbe3;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.card:nth-child(1) {
+  background-color: #fde9e1;
+  border-color: #f0b49c;
+  color: #b23c14;
+}
+.card:nth-child(2) {
+  background-color: #e1eefc;
+  border-color: #a9c8f2;
+  color: #14549e;
+}
+.card:nth-child(3) {
+  background-color: #fdf6d3;
+  border-color: #ecd97a;
+  color: #7a6403;
+}
+.card:nth-child(4) {
+  background-color: #e0f7fd;
+  border-color: #9adcf2;
+  color: #0b6e8c;
+}
